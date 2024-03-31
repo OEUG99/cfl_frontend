@@ -23,13 +23,21 @@ function App() {
 
     return (
         <>
-            <img src={logo} className="logo" alt="Vite logo" />
-            <br />
-            {showImage && <img className="main_image" src="/CFL_AD.png" alt="CFL Advertisement" />}
+            <img src={logo} className="logo" alt="Vite logo"/>
+            <br/>
+            {showImage &&
+                <div className="main-container">
+                    <p>Ticket Sales coming soon!</p>
+                    <br/>
+                    <img className="main_image" src="/CFL_AD.png" alt="CFL Advertisement"/></div>
+            }
 
             <div className="center_media_container">
-                <Ticket />
+                <Ticket/>
             </div>
+            <a className="signup"
+               href="https://docs.google.com/forms/u/1/d/e/1FAIpQLSc80vg5aTbhFolYtFCpKQ6sm-Y06Yt7vvxct3NSCVjvsPZXug/viewform?usp=send_form">Sign
+                up now to be a fighter... Click here!</a>
             <SocialBar/>
         </>
     );

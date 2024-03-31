@@ -16,6 +16,7 @@
     animation: pulseAnimation 5s infinite ease-in-out;
     flex-shrink: 100;
     padding: 1.3em;
+    margin-bottom: 10%
 
 }
 

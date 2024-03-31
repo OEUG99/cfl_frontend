@@ -16,7 +16,7 @@ body, html {
   height: 125%;
   display: grid;
   font-family: "Staatliches", cursive;
-  color: black;
+  color: white;
   font-size: 14px;
   letter-spacing: 0.1em;
   background: linear-gradient(to right, #c6a3ec, #7534b5);
@@ -71,8 +71,8 @@ body, html {
 
 
 .signup {
-  padding: 5%;
-  font-size: 40px;
+  text-align: center;
+  font-size: 35px;
   transition: filter 300ms;
   will-change: filter;
 }
@@ -94,15 +94,23 @@ body, html {
   }
 }
 
+
+
 /* Hide the image by default */
 .main_image {
   max-width: 100%;
   height: auto;
   width: 60%;
-  height: auto;
   animation: pulseAnimation 5s infinite ease-in-out;
   margin: auto;
   display: flex;
   background: white;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  margin-bottom: 10%
+}
+
+
+.main_container p {
+  color: white;
+  font-size: 18px;
 }
