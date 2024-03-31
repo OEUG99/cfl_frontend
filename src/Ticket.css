@@ -39,7 +39,7 @@
 
 .image {
     flex: 1;
-    background-image: url("public/CFL_AD.png");
+    background-image: url("CFL_AD.png");
     background-size: cover;
     background-position: center;
     opacity: 0.85;
@@ -110,7 +110,7 @@
 
 @font-face {
     font-family: 'StreetFighter';
-    src: url('public/street_fighter.ttf');
+    src: url('/street_fighter.ttf');
 }
 
 .show-name {

@@ -3,7 +3,7 @@ import React from 'react'
 import './Ticket.css'; // Assuming your CSS file is named Ticket.css
 
 // Assuming qr_code contains the path to the local image file
-const qr_code = './public/qr_code.png';
+const qr_code = '/qr_code.png';
 
 const Ticket = () => {
     return (
