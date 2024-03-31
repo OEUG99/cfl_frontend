@@ -20,10 +20,16 @@ function App() {
     }, []);
 
     const showImage = windowWidth <= 1000;
+    const logoImage =  document.getElementsByClassName("logo")[0];
+
+    const calculateMarginLeft = () => {
+        // Calculate margin based on window width or any other logic you want
+        return windowWidth <= 1000 ? '1%' : '10%';
+    };
 
     return (
         <>
-            <img src={logo} className="logo" alt="Vite logo"/>
+            <img src={logo} className="logo" alt="CFL Logo" style={{ marginLeft: calculateMarginLeft() }} />
 
             <br/>
             {showImage &&
