@@ -19,11 +19,12 @@ function App() {
         };
     }, []);
 
-    const showImage = windowWidth <= 800;
+    const showImage = windowWidth <= 1000;
 
     return (
         <>
             <img src={logo} className="logo" alt="Vite logo"/>
+
             <br/>
             {showImage &&
                 <div className="main-container">
@@ -38,9 +39,11 @@ function App() {
             <a className="signup"
                href="https://docs.google.com/forms/u/1/d/e/1FAIpQLSc80vg5aTbhFolYtFCpKQ6sm-Y06Yt7vvxct3NSCVjvsPZXug/viewform?usp=send_form">Sign
                 up now to be a fighter... Click here!</a>
-            <SocialBar/>
-        </>
-    );
+
+
+</>
+)
+    ;
 }
 
 export default App;

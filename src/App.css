@@ -19,7 +19,7 @@ body, html {
   color: white;
   font-size: 14px;
   letter-spacing: 0.1em;
-  background: linear-gradient(to right, #c6a3ec, #7534b5);
+  background: #7534b5;
   background-repeat: no-repeat; /* Prevent the gradient from repeating */
   background-size: contain
 }
@@ -29,8 +29,7 @@ body, html {
 .logo {
   height: 10%;
   padding: 1.7em;
-  margin: 5%;
-  margin-left: 10%;
+
   will-change: filter;
   transition: filter 300ms;
 }
@@ -85,7 +84,7 @@ body, html {
 }
 
 /* Media query for small screens */
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
   .center_media_container {
     display: none; /* Hide the div */
   }
