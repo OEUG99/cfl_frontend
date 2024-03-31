@@ -5,7 +5,6 @@
     flex-direction: column;
     align-items: center; /* Center horizontally */
     justify-content: center; /* Center vertically */
-    height: 15%; /* Adjust the height as needed */
     margin-left: 2%;
 
 }
@@ -13,12 +12,12 @@
 
 .social-menu ul{
     position: absolute;
-    top: 50%;
-    left: 50%;
+
     padding: 10em;
     transform: translate(-50%, -50%);
     display: flex;
-    margin-top: 20em;
+    margin-top: 10em;
+    margin-left: 1em;
 
 }
 
@@ -26,6 +25,11 @@
 .social-menu ul li{
     list-style: none;
     margin: 0 15px;
+}
+
+.social-menu ul p{
+    text-align: center;
+    width: 10%;
 }
 
 .social-menu ul li .fab{

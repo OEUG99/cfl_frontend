@@ -5,6 +5,12 @@
   text-align: center;
 }
 
+@keyframes pulseAnimation {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+
+}
 
 body, html {
   height: 125%;
@@ -62,6 +68,8 @@ body, html {
   height: 100%;
 }
 
+
+
 .signup {
   padding: 5%;
   font-size: 40px;
@@ -74,4 +82,27 @@ body, html {
 }
 .signup a.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+/* Media query for small screens */
+@media only screen and (max-width: 800px) {
+  .center_media_container {
+    display: none; /* Hide the div */
+  }
+  .main_image {
+    display: inline-block;
+  }
+}
+
+/* Hide the image by default */
+.main_image {
+  max-width: 100%;
+  height: auto;
+  width: 60%;
+  height: auto;
+  animation: pulseAnimation 5s infinite ease-in-out;
+  margin: auto;
+  display: flex;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
