@@ -97,9 +97,9 @@ body, html {
 
 /* Hide the image by default */
 .main_image {
-  max-width: 100%;
+  max-width: 25%;
   height: auto;
-  width: 60%;
+  width: 25%;
   animation: pulseAnimation 5s infinite ease-in-out;
   margin: auto;
   display: flex;
