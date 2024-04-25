@@ -8,7 +8,7 @@ const qr_code = '/qr_code.png';
 const Ticket = () => {
     return (
         <div className="ticket-container">
-            <h1>Ticket sales starting soon...</h1>
+            <h1>PPV AND TICKETS ON SALE!</h1>
 
             <link rel="stylesheet"
                   href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>

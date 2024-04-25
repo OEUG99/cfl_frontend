@@ -42,7 +42,7 @@ function App() {
                 <Ticket/>
             </div>
             <a className="signup"
-               href="https://tkotix.com">BUY YOUR TICKETS NOW -- CLICK HERE</a>
+               href="https://tkotix.com">BUY YOUR PPV AND TICKETS NOW -- CLICK HERE</a>
 
 
 </>
