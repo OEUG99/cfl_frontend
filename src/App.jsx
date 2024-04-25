@@ -34,7 +34,6 @@ function App() {
             <br/>
             {showImage &&
                 <div className="main-container">
-                    <a href="https://tkotix.com">BUY YOUR TICKETS NOW -- CLICK HERE</a>
                     <br/>
                     <img className="main_image" src="/CFL_AD.png" alt="CFL Advertisement"/></div>
             }
@@ -43,8 +42,7 @@ function App() {
                 <Ticket/>
             </div>
             <a className="signup"
-               href="https://docs.google.com/forms/u/1/d/e/1FAIpQLSc80vg5aTbhFolYtFCpKQ6sm-Y06Yt7vvxct3NSCVjvsPZXug/viewform?usp=send_form">Sign
-                up now to be a fighter... Click here!</a>
+               href="https://tkotix.com">BUY YOUR TICKETS NOW -- CLICK HERE</a>
 
 
 </>
