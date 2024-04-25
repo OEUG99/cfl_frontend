@@ -34,7 +34,7 @@ function App() {
             <br/>
             {showImage &&
                 <div className="main-container">
-                    <p>Ticket Sales coming soon!</p>
+                    <a href="https://tkotix.com">BUY YOUR TICKETS NOW -- CLICK HERE</a>
                     <br/>
                     <img className="main_image" src="/CFL_AD.png" alt="CFL Advertisement"/></div>
             }
