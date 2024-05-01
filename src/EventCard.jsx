@@ -16,8 +16,8 @@ const EventCard = () => {
                 renderImage={() =>
                     <div className="h-96 ">
                         <Carousel slideInterval={5000} className="h-full w-full">
-                            <img src="public/CFL_AD.png" alt="..." className="h-96 w-full"/>
-                            <img src="public/CFL_AD.png" alt="..." className="h-96 w-full"/>
+                            <img src="/CFL_AD.png" alt="..." className="h-96 w-full"/>
+                            <img src="/CFL_AD.png" alt="..." className="h-96 w-full"/>
 
                         </Carousel>
 
