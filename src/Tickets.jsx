@@ -1,5 +1,5 @@
 import CFL_Navbar from "./Navbar.jsx";
-import EventCard from "./EventCard.jsx";
+import Fightposters from "./fightposters.jsx";
 
 const Tickets = () => {
     return (

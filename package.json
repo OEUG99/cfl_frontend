@@ -15,7 +15,8 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.23.0",
-    "simplex-noise": "^4.0.1"
+    "simplex-noise": "^4.0.1",
+    "tailwindcss-animated": "^1.1.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
@@ -29,5 +30,9 @@
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.3",
     "vite": "^5.2.7"
-  }
+  },
+  "description": "The front end to Creator Fight League's website which is hosted on AWS amplify http://creatorfightleague.net/",
+  "main": "tailwind.config.js",
+  "author": "",
+  "license": "ISC"
 }

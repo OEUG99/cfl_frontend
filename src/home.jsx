@@ -1,14 +1,21 @@
 import CFL_Navbar from "./Navbar.jsx";
-import EventCard from "./EventCard.jsx";
+import BackgroundVideo from "./BackgroundVideo";
+import Landing from "./landing.jsx";
+import Fightposters from "./fightposters.jsx";
+import EventDetailsCard from "./EventDetailsCard.jsx";
 
-
-const Home = () => {
+const App = () => {
     return (
-        <div className="App">
+        <div className="">
             <CFL_Navbar/>
-            <EventCard/>
+
+                <div className="landing ">
+                    <BackgroundVideo/>
+                    <Landing/>
+                </div>
+                <EventDetailsCard/>
         </div>
     );
 };
 
-export default Home;
+export default App;
