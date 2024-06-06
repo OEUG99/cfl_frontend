@@ -1,4 +1,3 @@
-import { Carousel } from "flowbite-react";
 
 const EventDetailsCard = () => {
     return (
@@ -6,12 +5,12 @@ const EventDetailsCard = () => {
             <div className="text-center my-5 ">
                 <img src="/cfl2.webp" alt="image description" className="mx-auto"/>
                 <br/>
-                <p className="dark:text-white text-4xl my-3 font-bold"> IT'S TIME FOR ROUND TWO!</p>
+                <p className="dark:text-white text-4xl my-3 font-bold"> ITS TIME FOR ROUND TWO!</p>
                 <p className="dark:text-white text-2xl pb-8 ml-20 mr-20">
                     {/* eslint-disable-next-line react/no-unescaped-entities */}
                     We're thrilled to announce the highly-anticipated return of Creator Fight League 2, set to take
                     place in the vibrant city of Nashville, Tennessee. Following the resounding success of our inaugural
-                    event, we're gearing up to deliver an evening of unparalleled excitement, athleticism, and
+                    event, were gearing up to deliver an evening of unparalleled excitement, athleticism, and
                     entertainment. Join us on July 12, 2025 in Nashville, where the thrill of the ring awaits you.
                 </p>
 
@@ -54,10 +53,6 @@ const EventDetailsCard = () => {
                     <div>
                         <img className="h-auto max-w-full rounded-lg"
                              src="/posters/3.webp" alt=""/>
-                    </div>
-                    <div>
-                        <img className="h-auto max-w-full rounded-lg"
-                             src="/posters/4.webp" alt=""/>
                     </div>
                     <div>
                         <img className="h-auto max-w-full rounded-lg"
