@@ -11,7 +11,7 @@ const EventDetailsCard = () => {
                     We're thrilled to announce the highly-anticipated return of Creator Fight League 2, set to take
                     place in the vibrant city of Nashville, Tennessee. Following the resounding success of our inaugural
                     event, were gearing up to deliver an evening of unparalleled excitement, athleticism, and
-                    entertainment. Join us on July 12, 2025 in Nashville, where the thrill of the ring awaits you.
+                    entertainment. Join us on July 12, 2024 in Nashville, where the thrill of the ring awaits you.
                 </p>
 
                 <div className="button-container">
