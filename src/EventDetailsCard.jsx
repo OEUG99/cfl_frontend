@@ -5,18 +5,21 @@ const EventDetailsCard = () => {
             <div className="text-center my-5 ">
                 <img src="/cfl2.webp" alt="image description" className="mx-auto"/>
                 <br/>
-                <p className="dark:text-white text-4xl my-3 font-bold"> ITS TIME FOR ROUND TWO!</p>
-                <p className="dark:text-white text-2xl pb-8 ml-20 mr-20">
-                    {/* eslint-disable-next-line react/no-unescaped-entities */}
-                    We're thrilled to announce the highly-anticipated return of Creator Fight League 2, set to take
-                    place in the vibrant city of Nashville, Tennessee. Following the resounding success of our inaugural
-                    event, were gearing up to deliver an evening of unparalleled excitement, athleticism, and
-                    entertainment. Join us on July 12, 2024 in Nashville, where the thrill of the ring awaits you.
-                </p>
+                <div className="max-w-screen-lg mx-auto">
+                    <p className="dark:text-white text-4xl my-3 font-bold"> ITS TIME FOR ROUND TWO!</p>
+                    <p className="dark:text-white text-2xl pb-8">
+                        {/* eslint-disable-next-line react/no-unescaped-entities */}
+                        We're thrilled to announce the highly-anticipated return of Creator Fight League 2, set to take
+                        place in the vibrant city of Nashville, Tennessee. Following the resounding success of our
+                        inaugural
+                        event, were gearing up to deliver an evening of unparalleled excitement, athleticism, and
+                        entertainment. Join us on July 12, 2024 in Nashville, where the thrill of the ring awaits you.
+                    </p>
+                </div>
 
                 <div className="button-container">
                     <a type="button" href="https://tkotix.com/product/cfl2_ppv/"
-                            className="mr-2 text-white bg-[#FF9119] hover:bg-[#FF9119]/80 focus:ring-4 focus:outline-none focus:ring-[#FF9119]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:hover:bg-[#FF9119]/80 dark:focus:ring-[#FF9119]/40 me-2 mb-2">
+                       className="mr-2 text-white bg-[#FF9119] hover:bg-[#FF9119]/80 focus:ring-4 focus:outline-none focus:ring-[#FF9119]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:hover:bg-[#FF9119]/80 dark:focus:ring-[#FF9119]/40 me-2 mb-2">
                         <svg fill="#000000" width="32px" height="32px" viewBox="0 -8 528 528"
                              xmlns="http://www.w3.org/2000/svg"><title>video</title>
                             <path
@@ -25,7 +28,7 @@ const EventDetailsCard = () => {
                         Purcahse PPV
                     </a>
                     <a type="button" href="https://tkotix.com/product/cfl2/"
-                            className=" text-white bg-[#FF9119] hover:bg-[#FF9119]/80 focus:ring-4 focus:outline-none focus:ring-[#FF9119]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:hover:bg-[#FF9119]/80 dark:focus:ring-[#FF9119]/40 me-2 mb-2">
+                       className=" text-white bg-[#FF9119] hover:bg-[#FF9119]/80 focus:ring-4 focus:outline-none focus:ring-[#FF9119]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:hover:bg-[#FF9119]/80 dark:focus:ring-[#FF9119]/40 me-2 mb-2">
                         <svg fill="#000000" className="mr-2" width="32px" height="32px" viewBox="0 0 0.96 0.96"
                              xmlns="http://www.w3.org/2000/svg">
                             <path
